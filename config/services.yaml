@@ -1,0 +1,20 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Docker Containers:
+    - DnD Resources:
+        href: http://192.168.18.23:8001
+        description: Ready to use DnD resources
+        server: my-docker
+        container: dnd-resources 
+
+# - My Second Group:
+#    - My Second Service:
+#        href: http://localhost/
+#        description: Homepage is the best
+
+# - My Third Group:
+#    - My Third Service:
+#        href: http://localhost/
+#        description: Homepage is 😎
